@@ -1,0 +1,157 @@
+mode full, steps build,v3,s4o,lines,reg,agg,hl, LEAN_DIR <development tree>/lean
+built generators in 12 s
+COMPARE b0 v3 node modules GD3N*/GD3F2N* (manifest): identical 136, different 0, not in reference 0
+COMPARE b0 v3 blobs GD3F2L* (MANIFEST_v3r): identical 164, different 0, not in reference 0
+COMPARE b0 l5s4o modules GD3O* (manifest): identical 214, different 0, not in reference 0
+COMPARE b1 v3 node modules GD3N*/GD3F2N* (manifest): identical 200, different 0, not in reference 0
+COMPARE b1 v3 blobs GD3F2L* (MANIFEST_v3r): identical 243, different 0, not in reference 0
+COMPARE b1 l5s4o modules GD3O* (manifest): identical 293, different 0, not in reference 0
+COMPARE b2 v3 node modules GD3N*/GD3F2N* (manifest): identical 200, different 0, not in reference 0
+COMPARE b2 v3 blobs GD3F2L* (MANIFEST_v3r): identical 186, different 0, not in reference 0
+COMPARE b2 l5s4o modules GD3O* (manifest): identical 236, different 0, not in reference 0
+COMPARE b3 v3 node modules GD3N*/GD3F2N* (manifest): identical 184, different 0, not in reference 0
+COMPARE b3 v3 blobs GD3F2L* (MANIFEST_v3r): identical 223, different 0, not in reference 0
+COMPARE b3 l5s4o modules GD3O* (manifest): identical 273, different 0, not in reference 0
+COMPARE b4 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b4 v3 blobs GD3F2L* (MANIFEST_v3r): identical 83, different 0, not in reference 0
+COMPARE b4 l5s4o modules GD3O* (manifest): identical 133, different 0, not in reference 0
+skip rep 265 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b5 v3 node modules GD3N*/GD3F2N* (manifest): identical 252, different 0, not in reference 0
+COMPARE b5 v3 blobs GD3F2L* (MANIFEST_v3r): identical 333, different 0, not in reference 0
+COMPARE b5 l5s4o modules GD3O* (manifest): identical 382, different 0, not in reference 0
+skip rep 304 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b6 v3 node modules GD3N*/GD3F2N* (manifest): identical 223, different 0, not in reference 0
+COMPARE b6 v3 blobs GD3F2L* (MANIFEST_v3r): identical 226, different 0, not in reference 0
+COMPARE b6 l5s4o modules GD3O* (manifest): identical 275, different 0, not in reference 0
+COMPARE b7 v3 node modules GD3N*/GD3F2N* (manifest): identical 252, different 0, not in reference 0
+COMPARE b7 v3 blobs GD3F2L* (MANIFEST_v3r): identical 126, different 0, not in reference 0
+COMPARE b7 l5s4o modules GD3O* (manifest): identical 176, different 0, not in reference 0
+COMPARE b8 v3 node modules GD3N*/GD3F2N* (manifest): identical 253, different 0, not in reference 0
+COMPARE b8 v3 blobs GD3F2L* (MANIFEST_v3r): identical 83, different 0, not in reference 0
+COMPARE b8 l5s4o modules GD3O* (manifest): identical 133, different 0, not in reference 0
+COMPARE b9 v3 node modules GD3N*/GD3F2N* (manifest): identical 233, different 0, not in reference 0
+COMPARE b9 v3 blobs GD3F2L* (MANIFEST_v3r): identical 193, different 0, not in reference 0
+COMPARE b9 l5s4o modules GD3O* (manifest): identical 243, different 0, not in reference 0
+COMPARE b10 v3 node modules GD3N*/GD3F2N* (manifest): identical 229, different 0, not in reference 0
+COMPARE b10 v3 blobs GD3F2L* (MANIFEST_v3r): identical 187, different 0, not in reference 0
+COMPARE b10 l5s4o modules GD3O* (manifest): identical 237, different 0, not in reference 0
+COMPARE b11 v3 node modules GD3N*/GD3F2N* (manifest): identical 236, different 0, not in reference 0
+COMPARE b11 v3 blobs GD3F2L* (MANIFEST_v3r): identical 125, different 0, not in reference 0
+COMPARE b11 l5s4o modules GD3O* (manifest): identical 175, different 0, not in reference 0
+COMPARE b12 v3 node modules GD3N*/GD3F2N* (manifest): identical 237, different 0, not in reference 0
+COMPARE b12 v3 blobs GD3F2L* (MANIFEST_v3r): identical 177, different 0, not in reference 0
+COMPARE b12 l5s4o modules GD3O* (manifest): identical 227, different 0, not in reference 0
+COMPARE b13 v3 node modules GD3N*/GD3F2N* (manifest): identical 248, different 0, not in reference 0
+COMPARE b13 v3 blobs GD3F2L* (MANIFEST_v3r): identical 118, different 0, not in reference 0
+COMPARE b13 l5s4o modules GD3O* (manifest): identical 168, different 0, not in reference 0
+COMPARE b14 v3 node modules GD3N*/GD3F2N* (manifest): identical 251, different 0, not in reference 0
+COMPARE b14 v3 blobs GD3F2L* (MANIFEST_v3r): identical 101, different 0, not in reference 0
+COMPARE b14 l5s4o modules GD3O* (manifest): identical 151, different 0, not in reference 0
+COMPARE b15 v3 node modules GD3N*/GD3F2N* (manifest): identical 103, different 0, not in reference 0
+COMPARE b15 v3 blobs GD3F2L* (MANIFEST_v3r): identical 80, different 0, not in reference 0
+COMPARE b15 l5s4o modules GD3O* (manifest): identical 130, different 0, not in reference 0
+COMPARE b16 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b16 v3 blobs GD3F2L* (MANIFEST_v3r): identical 94, different 0, not in reference 0
+COMPARE b16 l5s4o modules GD3O* (manifest): identical 144, different 0, not in reference 0
+COMPARE b17 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b17 v3 blobs GD3F2L* (MANIFEST_v3r): identical 102, different 0, not in reference 0
+COMPARE b17 l5s4o modules GD3O* (manifest): identical 152, different 0, not in reference 0
+skip rep 927 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b18 v3 node modules GD3N*/GD3F2N* (manifest): identical 98, different 0, not in reference 0
+COMPARE b18 v3 blobs GD3F2L* (MANIFEST_v3r): identical 102, different 0, not in reference 0
+COMPARE b18 l5s4o modules GD3O* (manifest): identical 151, different 0, not in reference 0
+COMPARE b19 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b19 v3 blobs GD3F2L* (MANIFEST_v3r): identical 138, different 0, not in reference 0
+COMPARE b19 l5s4o modules GD3O* (manifest): identical 188, different 0, not in reference 0
+COMPARE b20 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b20 v3 blobs GD3F2L* (MANIFEST_v3r): identical 114, different 0, not in reference 0
+COMPARE b20 l5s4o modules GD3O* (manifest): identical 164, different 0, not in reference 0
+skip rep 1075 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b21 v3 node modules GD3N*/GD3F2N* (manifest): identical 98, different 0, not in reference 0
+COMPARE b21 v3 blobs GD3F2L* (MANIFEST_v3r): identical 108, different 0, not in reference 0
+COMPARE b21 l5s4o modules GD3O* (manifest): identical 157, different 0, not in reference 0
+COMPARE b22 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b22 v3 blobs GD3F2L* (MANIFEST_v3r): identical 99, different 0, not in reference 0
+COMPARE b22 l5s4o modules GD3O* (manifest): identical 149, different 0, not in reference 0
+COMPARE b23 v3 node modules GD3N*/GD3F2N* (manifest): identical 104, different 0, not in reference 0
+COMPARE b23 v3 blobs GD3F2L* (MANIFEST_v3r): identical 151, different 0, not in reference 0
+COMPARE b23 l5s4o modules GD3O* (manifest): identical 201, different 0, not in reference 0
+COMPARE b24 v3 node modules GD3N*/GD3F2N* (manifest): identical 102, different 0, not in reference 0
+COMPARE b24 v3 blobs GD3F2L* (MANIFEST_v3r): identical 117, different 0, not in reference 0
+COMPARE b24 l5s4o modules GD3O* (manifest): identical 167, different 0, not in reference 0
+COMPARE b25 v3 node modules GD3N*/GD3F2N* (manifest): identical 102, different 0, not in reference 0
+COMPARE b25 v3 blobs GD3F2L* (MANIFEST_v3r): identical 156, different 0, not in reference 0
+COMPARE b25 l5s4o modules GD3O* (manifest): identical 206, different 0, not in reference 0
+skip rep 1336 (DONE_PRIOR in the rollout; not produced by this chain)
+skip rep 1343 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b26 v3 node modules GD3N*/GD3F2N* (manifest): identical 96, different 0, not in reference 0
+COMPARE b26 v3 blobs GD3F2L* (MANIFEST_v3r): identical 121, different 0, not in reference 0
+COMPARE b26 l5s4o modules GD3O* (manifest): identical 169, different 0, not in reference 0
+COMPARE b27 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b27 v3 blobs GD3F2L* (MANIFEST_v3r): identical 118, different 0, not in reference 0
+COMPARE b27 l5s4o modules GD3O* (manifest): identical 168, different 0, not in reference 0
+COMPARE b28 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b28 v3 blobs GD3F2L* (MANIFEST_v3r): identical 70, different 0, not in reference 0
+COMPARE b28 l5s4o modules GD3O* (manifest): identical 120, different 0, not in reference 0
+COMPARE b29 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b29 v3 blobs GD3F2L* (MANIFEST_v3r): identical 70, different 0, not in reference 0
+COMPARE b29 l5s4o modules GD3O* (manifest): identical 120, different 0, not in reference 0
+skip rep 1524 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b30 v3 node modules GD3N*/GD3F2N* (manifest): identical 98, different 0, not in reference 0
+COMPARE b30 v3 blobs GD3F2L* (MANIFEST_v3r): identical 67, different 0, not in reference 0
+COMPARE b30 l5s4o modules GD3O* (manifest): identical 116, different 0, not in reference 0
+COMPARE b31 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b31 v3 blobs GD3F2L* (MANIFEST_v3r): identical 78, different 0, not in reference 0
+COMPARE b31 l5s4o modules GD3O* (manifest): identical 128, different 0, not in reference 0
+COMPARE b32 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b32 v3 blobs GD3F2L* (MANIFEST_v3r): identical 96, different 0, not in reference 0
+COMPARE b32 l5s4o modules GD3O* (manifest): identical 146, different 0, not in reference 0
+COMPARE b33 v3 node modules GD3N*/GD3F2N* (manifest): identical 122, different 0, not in reference 0
+COMPARE b33 v3 blobs GD3F2L* (MANIFEST_v3r): identical 117, different 0, not in reference 0
+COMPARE b33 l5s4o modules GD3O* (manifest): identical 167, different 0, not in reference 0
+COMPARE b34 v3 node modules GD3N*/GD3F2N* (manifest): identical 120, different 0, not in reference 0
+COMPARE b34 v3 blobs GD3F2L* (MANIFEST_v3r): identical 115, different 0, not in reference 0
+COMPARE b34 l5s4o modules GD3O* (manifest): identical 165, different 0, not in reference 0
+skip rep 1763 (DONE_PRIOR in the rollout; not produced by this chain)
+COMPARE b35 v3 node modules GD3N*/GD3F2N* (manifest): identical 98, different 0, not in reference 0
+COMPARE b35 v3 blobs GD3F2L* (MANIFEST_v3r): identical 82, different 0, not in reference 0
+COMPARE b35 l5s4o modules GD3O* (manifest): identical 131, different 0, not in reference 0
+COMPARE b36 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b36 v3 blobs GD3F2L* (MANIFEST_v3r): identical 100, different 0, not in reference 0
+COMPARE b36 l5s4o modules GD3O* (manifest): identical 150, different 0, not in reference 0
+COMPARE b37 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b37 v3 blobs GD3F2L* (MANIFEST_v3r): identical 101, different 0, not in reference 0
+COMPARE b37 l5s4o modules GD3O* (manifest): identical 151, different 0, not in reference 0
+COMPARE b38 v3 node modules GD3N*/GD3F2N* (manifest): identical 100, different 0, not in reference 0
+COMPARE b38 v3 blobs GD3F2L* (MANIFEST_v3r): identical 105, different 0, not in reference 0
+COMPARE b38 l5s4o modules GD3O* (manifest): identical 155, different 0, not in reference 0
+COMPARE b39 v3 node modules GD3N*/GD3F2N* (manifest): identical 30, different 0, not in reference 0
+COMPARE b39 v3 blobs GD3F2L* (MANIFEST_v3r): identical 25, different 0, not in reference 0
+COMPARE b39 l5s4o modules GD3O* (manifest): identical 40, different 0, not in reference 0
+COMPARE lines plan[0,50) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[50,100) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[100,150) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[150,200) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[200,250) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[250,300) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[300,350) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[350,400) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[400,450) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[450,500) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[500,550) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[550,600) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[600,650) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[650,700) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[700,750) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[750,800) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[800,850) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[850,900) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[900,950) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[950,1000) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[1000,1050) LinRQSC*: identical 50, different 0, not in reference 0
+COMPARE lines plan[1050,1053) LinRQSC*: identical 3, different 0, not in reference 0
+COMPARE l5reg Reg<rep> and Mem (reps 5 11 100 272 286): identical 6, different 0, not in reference 0
+COMPARE l5_agg AggFive (all): identical 391, different 0, not in reference 4
+COMPARE l5_agg L5S5/FiveSpeedFinal: identical 0, different 0, not in reference 1
+COMPARE l5hlines AggFive/Hl (all): identical 314, different 0, not in reference 0
+regeneration summary: 19614 files identical, 0 different, 5 without a reference hash; total 483 s

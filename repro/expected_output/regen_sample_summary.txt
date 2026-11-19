@@ -1,0 +1,13 @@
+mode sample, steps build,v3,s4o,lines,reg,agg,hl, LEAN_DIR <development tree>/lean
+built generators in 9 s
+COMPARE sample v3 node modules GD3N*/GD3F2N* (manifest): identical 55, different 0, not in reference 0
+COMPARE sample v3 blobs GD3F2L* (MANIFEST_v3r): identical 102, different 0, not in reference 0
+COMPARE sample l5s4o modules GD3O* (manifest): identical 116, different 0, not in reference 0
+COMPARE lines plan[0,3) LinRQSC*: identical 3, different 0, not in reference 0
+COMPARE lines plan[500,503) LinRQSC*: identical 3, different 0, not in reference 0
+COMPARE lines plan[1050,1053) LinRQSC*: identical 3, different 0, not in reference 0
+COMPARE l5reg Reg<rep> and Mem (reps 5 11 100 272 286): identical 6, different 0, not in reference 0
+COMPARE l5_agg AggFive (all): identical 391, different 0, not in reference 4
+COMPARE l5_agg L5S5/FiveSpeedFinal: identical 0, different 0, not in reference 1
+COMPARE l5hlines AggFive/Hl (all): identical 314, different 0, not in reference 0
+regeneration summary: 993 files identical, 0 different, 5 without a reference hash; total 25 s

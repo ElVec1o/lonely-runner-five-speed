@@ -1,0 +1,10 @@
+[package]
+name = "l5s4o"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+wp0a = { path = "../lean5_wp0a" }
+[profile.release]
+opt-level = 3
+overflow-checks = true
+debug = false

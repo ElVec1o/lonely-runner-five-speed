@@ -1,0 +1,96 @@
+LRSpectrumFull/L5S4/GD3Ctl.lean:33:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/GD3Ctl.lean:46:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/GD3F3.lean:44:theorem ctl_sorry : leafOkF (dg NN) (bump (dg N0) 3 1000) = true := by sorry
+LRSpectrumFull/L5S4/GD3F3.lean:61:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/GD3K5.lean:74:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/GD3K5.lean:76:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/GD3O2.lean:41:theorem ctl_sorry : t4F (dg TT) ST nT (dg O0) = false := by sorry
+LRSpectrumFull/L5S4/GD3O2.lean:46:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/GT2.lean:71:theorem gt_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/GT2.lean:77:#print axioms gt_sorry
+LRSpectrumFull/L5S4/GFlatCtl.lean:26:theorem gc_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/GFlatCtl.lean:34:#print axioms gc_sorry
+LRSpectrumFull/L5S4/LinRAx.lean:17:theorem ctl_sorry : (1 : Nat) = 2 := by sorry
+LRSpectrumFull/L5S4/LinRAx.lean:18:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/LinAx.lean:16:theorem ctl_sorry : (1 : Nat) = 2 := by sorry
+LRSpectrumFull/L5S4/LinAx.lean:17:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/GD3S5.lean:29:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/GD3S5.lean:59:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2AxScan.lean:32:theorem axscan_sorry : (1 : Nat) = 2 := by sorry
+LRSpectrumFull/L5S4/T2AxScan.lean:112:#print axioms axscan_sorry
+LRSpectrumFull/L5S4/T2D1.lean:84:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D1.lean:94:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D11.lean:66:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D11.lean:76:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D12.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D12.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D15.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D15.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D24.lean:67:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D24.lean:77:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D0.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D0.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D13.lean:77:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D13.lean:87:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D16.lean:66:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D16.lean:76:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D17.lean:68:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D17.lean:78:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D18.lean:60:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D18.lean:67:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D20.lean:68:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D20.lean:78:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D22.lean:73:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D22.lean:83:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D23.lean:62:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D23.lean:69:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D3.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D3.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D8.lean:60:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D8.lean:67:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2E13.lean:85:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2E13.lean:95:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2E19.lean:103:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2E19.lean:113:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D9.lean:73:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D9.lean:83:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2LinkReal.lean:39:theorem link_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2LinkReal.lean:45:#print axioms link_sorry
+LRSpectrumFull/L5S4/T2Lead4.lean:51:theorem t4_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2Lead4.lean:59:#print axioms t4_sorry
+LRSpectrumFull/L5S4/T2AxScan2.lean:46:theorem axscan2_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2AxScan2.lean:48:#print axioms axscan2_sorry
+LRSpectrumFull/L5S4/T2D10.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D10.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D14.lean:65:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D14.lean:75:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D2.lean:66:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D2.lean:76:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D21.lean:73:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D21.lean:83:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D4.lean:67:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D4.lean:77:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D6.lean:66:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D6.lean:76:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2E1.lean:97:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2E1.lean:107:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2E5.lean:189:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2E5.lean:199:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2All.lean:44:theorem t2all_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2All.lean:49:#print axioms t2all_sorry
+LRSpectrumFull/L5S4/T2D25.lean:71:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D25.lean:81:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2D7.lean:68:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2D7.lean:78:#print axioms ctl_sorry
+LRSpectrumFull/L5S4/T2Final.lean:243:theorem t2all_ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S4/T2Final.lean:247:#print axioms t2all_ctl_sorry
+LRSpectrumFull/L5S5/FiveSpeedAxioms.lean:13:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/L5S5/FiveSpeedAxioms.lean:15:#print axioms ctl_sorry
+LRSpectrumFull/L5S5/T5StoreCtl.lean:12:theorem ctl_sorry : ∀ r ∈ T5Store.t5, r.v 0 = 0 := by sorry
+LRSpectrumFull/L5S5/T5StoreCtl.lean:14:#print axioms ctl_sorry
+LRSpectrumFull/L5Reg/RegCtl.lean:32:theorem ctl_sorry : False := by sorry
+LRSpectrumFull/L5Reg/RegCtl.lean:37:#print axioms ctl_sorry
+LRSpectrumFull/L5Reg/RegPCtl.lean:25:theorem ctl_sorry : eqAll (dg N304.TT) N304.ST (assoc P304_0.bls) 1 P304_0.adv = true := by sorry
+LRSpectrumFull/L5Reg/RegPCtl.lean:26:#print axioms ctl_sorry
+LRSpectrumFull/AggFive/Ctl.lean:22:theorem ctl_sorry : (1 : ℕ) = 2 := by sorry
+LRSpectrumFull/AggFive/Ctl.lean:29:#print axioms ctl_sorry

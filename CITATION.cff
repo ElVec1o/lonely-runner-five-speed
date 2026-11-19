@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "The five-speed lonely runner spectrum below 1/5: a kernel-checked proof"
+abstract: >-
+  A complete formalization in Lean 4 with Mathlib of the statement that, for five distinct positive integer speeds,
+  the values of the maximum loneliness ML below 1/5 are exactly s/(5s+1) with s >= 1 (the inclusion, the attainment
+  of every value by (1,2,3,4,5s), and the equivalence), with no hypothesis left over and no sorry, no native_decide
+  and no axiom beyond propext, Classical.choice and Quot.sound. The proof is a computer-assisted case analysis
+  (a tree of choices for a reduced basis of the relation lattice, two critical subtori computed by hand, and a
+  finite certificate produced by Rust programs and checked by the Lean kernel), following the method of Yi, Gill
+  and Bu for four speeds (arXiv:2610.40694). No first proof is claimed; whether another complete proof exists
+  must be checked against the literature. The archive contains the paper, the 9,312 shipped Lean modules of a
+  17,598-module import closure (the remaining generated modules are listed with sha256 and restored by a script),
+  the Rust generators and a reproduction entry point (a from-scratch build is about 36.8 hours, not run). The Lean
+  modules, the Rust generators and the first draft of the paper were produced by an AI system (Claude, Anthropic);
+  the questions, directions and the decision to formalize this statement came from Vico Bonfioli. The paper has not
+  been peer reviewed. No proof of the lonely runner conjecture is claimed.
+authors:
+  - family-names: Bonfioli
+    given-names: Vico
+license: CC-BY-4.0
+repository-code: "https://github.com/ElVec1o/lonely-runner-five-speed"
+version: 1.0.0
+type: software
+date-released: 2026-11-19
+keywords:
+  - lonely runner conjecture
+  - Lean 4
+  - formal verification
+  - five runners
+  - view obstruction

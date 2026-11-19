@@ -1,0 +1,15 @@
+[package]
+name = "l5s4f_gen"
+version = "0.1.0"
+edition = "2021"
+[lib]
+name = "wp0a"
+path = "src/lib.rs"
+[[bin]]
+name = "l5s4f_gen"
+path = "src/main.rs"
+[dependencies]
+[profile.release]
+opt-level = 3
+overflow-checks = true
+debug = false
