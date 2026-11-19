@@ -9,26 +9,28 @@ abstract: >-
   (a tree of choices for a reduced basis of the relation lattice, two critical subtori computed by hand, and a
   finite certificate produced by Rust programs and checked by the Lean kernel), following the method of Yi, Gill
   and Bu for four speeds (arXiv:2610.40694). No first proof is claimed; whether another complete proof exists
-  must be checked against the literature. The archive contains the paper, the 9,312 shipped Lean modules of a
-  17,598-module import closure (the remaining generated modules are listed with sha256 and restored by a script),
+  must be checked against the literature. The archive contains the paper, the 9,496 shipped Lean modules of a
+  17,598-module import closure (the remaining regenerable generated modules are listed with sha256 and restored by a script),
   the Rust generators and a reproduction entry point (a from-scratch build is about 36.8 hours, not run). The Lean
   modules, the Rust generators and the first draft of the paper were produced by an AI system (Claude, Anthropic);
   the questions, directions and the decision to formalize this statement came from Vico Bonfioli. The paper has not
-  been peer reviewed. No proof of the lonely runner conjecture is claimed.
+  been peer reviewed. No proof of the lonely runner conjecture is claimed. Version 1.0.1 adds the generated
+  modules of eight representatives that version 1.0.0 omitted.
 authors:
   - family-names: Bonfioli
     given-names: Vico
 license: CC-BY-4.0
 repository-code: "https://github.com/ElVec1o/lonely-runner-five-speed"
-version: 1.0.0
-doi: 10.5281/zenodo.24358072
+version: 1.0.1
+# The DOI of version 1.0.1 will be added after its release, by a follow-up commit.
+doi: 10.5281/zenodo.24358071
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.24358072
-    description: "Version 1.0.0 (Zenodo)"
   - type: doi
     value: 10.5281/zenodo.24358071
     description: "All versions (Zenodo concept DOI)"
+  - type: doi
+    value: 10.5281/zenodo.24358072
+    description: "Version 1.0.0 (Zenodo)"
 type: software
 date-released: 2026-11-19
 keywords:

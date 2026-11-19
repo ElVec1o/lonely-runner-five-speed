@@ -16,7 +16,7 @@
 #   different / not-in-reference counts per step; exit 0 only if no file differs and at least one was compared.
 # NOT COVERED (stated plainly)   eight reps of the l5s4o family: 265 and 304 (big-rep / critical-leaf chains, lean5_crit; our run of l5s4o on rep 265 gives
 #   different files) and 927, 1075, 1336, 1343, 1524, 1763 (built by the earlier S4O stage with 64-record chunks: `GD3O<rep>Rall`, different chunking); their
-#   `GD3O<rep>*` modules are listed in the manifest as generator l5s4o? but are NOT reproduced here (OBSERVED: running l5s4o on the six gives different files); the T2 families (l5s4r_gen, l5s4s_gen), l5s4k_gen headers (GD3N*, reproduced here by the v3 emitter l5v3), l5s4e/f_gen, L5WP1 box
+#   `GD3O<rep>*` modules (shipped as files in lean/ since v1.0.1) are listed in the manifest as generator l5s4o? but are NOT reproduced here (OBSERVED: running l5s4o on the six gives different files); the T2 families (l5s4r_gen, l5s4s_gen), l5s4k_gen headers (GD3N*, reproduced here by the v3 emitter l5v3), l5s4e/f_gen, L5WP1 box
 #   data, LinRQSG/LinRAll assembly modules, RegP*/RegFin* (only `Reg<rep>` and `Mem` are sampled); sources of those generators are in generators/
 #   but this script does not run them (their sources are shipped inside the bundle's lean/ tree with manifest hashes).
 # INPUTS (copied into inputs/, see inputs/INPUTS.sha256): plan.tsv, t4_classes.tsv, src_t4_all/ (T4 class tables written by an earlier stage of l5v3),

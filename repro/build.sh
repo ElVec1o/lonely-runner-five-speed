@@ -9,7 +9,7 @@
 #
 # MODES (exactly one)
 #   --plan          validate, no lake, no lean: manifest readable, toolchain / Mathlib pins, every in_bundle=yes source present with the
-#                   manifest sha256, every omitted generated source (in_bundle=no) either present with the right sha256 or reported missing
+#                   manifest sha256, every regenerable generated source (in_bundle=no) either present with the right sha256 or reported missing
 #                   (run `regen_data.sh --full --install --steps build,v3,s4o,lines` first), order topological, free disk.  Exit 0 valid; 2 invalid; 4 only the omitted
 #                   generated families are missing or differ.
 #   --status        --plan, then ONE `lake build --no-build LRSpectrumFull.L5S5.FiveSpeedFinal4` (reports `All targets up-to-date (N jobs)` on a built tree)
@@ -34,7 +34,7 @@
 # RESUMABLE: after each module one row goes to the results table; a second --run skips modules with an OK row and the same sha256.
 # ABORTS on a real `error:` line or on a kill by its own watchdog (later modules would import an unbuilt module and lake would then rebuild the
 # unbuilt imports in parallel).  Guard / OOM kills (exit 137, no error line) are retried.
-# EXIT: 0 done (or plan valid); 1 real error / abort; 2 plan invalid; 3 disk / lock problem; 4 omitted generated sources missing.
+# EXIT: 0 done (or plan valid); 1 real error / abort; 2 plan invalid; 3 disk / lock problem; 4 regenerable generated sources missing.
 
 HERE=$(cd "$(dirname "$0")" && pwd)
 LEAN_DIR=${LEAN_DIR:-$HERE/../lean}
@@ -118,7 +118,7 @@ echo "machine: lean RSS now $(leanrss) MB (gate: wait while RSS + $GATE_RESERVE_
 echo "cost: from-scratch --run = about 36.8 h of Lean time (QUOTED leaf-rollout cost model; not measured end to end) + 1-10 s lake start-up per module (OBSERVED on a built tree)"
 if [ $BAD != 0 ]; then echo "PLAN INVALID"; rm -rf "${T:?}"; exit 2; fi
 if [ $REGEN != 0 ]; then
-  echo "PLAN INCOMPLETE: the omitted generated families (l5s4o GD3O*, l5qemit LinRQSC*) are not (all) present or differ: run regen_data.sh --full --install --steps build,v3,s4o,lines"
+  echo "PLAN INCOMPLETE: the regenerable generated families (l5s4o GD3O*, l5qemit LinRQSC*; the 184 modules GD3O1 and those of reps 265, 304, 927, 1075, 1336, 1343, 1524, 1763 are shipped) are not (all) present or differ: run regen_data.sh --full --install --steps build,v3,s4o,lines"
   if [ "$MODE" = plan ]; then rm -rf "${T:?}"; exit 4; fi
 else
   echo "PLAN VALID"
