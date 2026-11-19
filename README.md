@@ -2,7 +2,7 @@
 
 Version 1.0.1 (19 November 2026). Author: Vico Bonfioli. License: CC-BY-4.0 (`LICENSE.md`).
 Repository: https://github.com/ElVec1o/lonely-runner-five-speed
-DOI: https://doi.org/10.5281/zenodo.24358071 (all versions, concept DOI); version 1.0.0: https://doi.org/10.5281/zenodo.24358072. The DOI of version 1.0.1 is added here after its release.
+DOI: https://doi.org/10.5281/zenodo.24358071 (all versions, concept DOI); version 1.0.0: https://doi.org/10.5281/zenodo.24358072. version 1.0.1: https://doi.org/10.5281/zenodo.24368217.
 Version 1.0.1 adds the generated modules of eight representatives (265, 304, 927, 1075, 1336, 1343, 1524, 1763) that version 1.0.0 omitted.
 Paper: `paper/main.pdf` (17 pages; source `paper/main.tex`). Not peer reviewed.
 

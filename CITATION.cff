@@ -22,9 +22,11 @@ authors:
 license: CC-BY-4.0
 repository-code: "https://github.com/ElVec1o/lonely-runner-five-speed"
 version: 1.0.1
-# The DOI of version 1.0.1 will be added after its release, by a follow-up commit.
-doi: 10.5281/zenodo.24358071
+doi: 10.5281/zenodo.24368217
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24368217
+    description: "Version 1.0.1 (Zenodo)"
   - type: doi
     value: 10.5281/zenodo.24358071
     description: "All versions (Zenodo concept DOI)"
