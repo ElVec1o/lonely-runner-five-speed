@@ -2,6 +2,7 @@
 
 Version 1.0.0 (19 November 2026). Author: Vico Bonfioli. License: CC-BY-4.0 (`LICENSE.md`).
 Repository: https://github.com/ElVec1o/lonely-runner-five-speed
+DOI: https://doi.org/10.5281/zenodo.24358072 (version 1.0.0); all versions: https://doi.org/10.5281/zenodo.24358071
 Paper: `paper/main.pdf` (17 pages; source `paper/main.tex`). Not peer reviewed.
 
 ## What this is
