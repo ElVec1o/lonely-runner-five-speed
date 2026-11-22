@@ -1,0 +1,8 @@
+# LANES_NOTES (REBUILD-LANES seat, T2, 2026-11-21)
+Switch-over: STOP at 21:22:19, driver.sh exited by itself 21:22:21 before GD3O85T (module boundary, no lean running, lock freed); STOP removed; driver2.sh launched 21:22:26 (driver.pid = nohup wrapper; driver2.pid = driver2). driver.sh unchanged (rollback = RESTART.md).
+Pre-flight: dag.tsv equals MANIFEST col 10 on all 17,598 rows; 20 random modules equal `lake env lean --deps`; concurrent `lake build` of two different modules in one workspace does not block (checked with a no-op build while driver 1 ran); dry run reviewed (admission, ALONEWAIT for AggFive, strict order); monitor kill test with fake launchers killed only the newest lane.
+First 30 minutes (21:22-21:52), from lanes/samples.tsv (every 10 s) and results.tsv:
+- 322 modules in 30.3 min = about 637 per hour in this stretch (GD3 family, many cheap), against about 250 per hour (296 overall average) under one lane. Summed module wall time 3335 s in 1820 s elapsed = 1.83x lane speed-up. Two lanes ran in 157 of 178 samples (the rest: alone-class AggFive modules and head-of-line waits).
+- Peak summed RSS of our lean processes: 8,453 MB (threshold for the monitor kill 15,500; admission cap 13,000). No sample above 16,000. Foreign lean RSS 0. Free disk 46 -> 45 GB.
+- Monitor kills: 0. Foreign-guard kills: 0. New FAIL rows: 0 (the single FAIL row in results.tsv is the old T2D5R7 try1, which then passed on try2). Rollback: not needed, driver2 still running.
+- Not yet exercised: 8 GB family modules in parallel, L5Reg, L5S5 final aggregation (these run alone by rule). Re-check after the first 7 GB-class module and at the L5S5 stage.

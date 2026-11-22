@@ -11,18 +11,20 @@ abstract: >-
   and Bu for four speeds (arXiv:2610.40694). No first proof is claimed; whether another complete proof exists
   must be checked against the literature. The archive contains the paper, the 9,496 shipped Lean modules of a
   17,598-module import closure (the remaining regenerable generated modules are listed with sha256 and restored by a script),
-  the Rust generators and a reproduction entry point (a from-scratch build is about 36.8 hours, not run). The Lean
+  the Rust generators and a reproduction entry point (a clean rebuild of a fresh clone was run by the author on 21 and 22 November 2026: 17,598 of 17,598 modules, summed module time 40.4 hours, 27 h 39 min wall on one machine; it is not an independent rebuild). The Lean
   modules, the Rust generators and the first draft of the paper were produced by an AI system (Claude, Anthropic);
   the questions, directions and the decision to formalize this statement came from Vico Bonfioli. The paper has not
   been peer reviewed. No proof of the lonely runner conjecture is claimed. Version 1.0.1 adds the generated
-  modules of eight representatives that version 1.0.0 omitted.
+  modules of eight representatives that version 1.0.0 omitted. Version 1.0.2 records the clean rebuild; the Lean
+  tree is unchanged.
 authors:
   - family-names: Bonfioli
     given-names: Vico
 license: CC-BY-4.0
 repository-code: "https://github.com/ElVec1o/lonely-runner-five-speed"
-version: 1.0.1
-doi: 10.5281/zenodo.24368217
+version: 1.0.2
+# The DOI of version 1.0.2: TO BE MINTED (added after its release, by a follow-up commit).
+doi: 10.5281/zenodo.24358071
 identifiers:
   - type: doi
     value: 10.5281/zenodo.24368217
@@ -34,7 +36,7 @@ identifiers:
     value: 10.5281/zenodo.24358072
     description: "Version 1.0.0 (Zenodo)"
 type: software
-date-released: 2026-11-19
+date-released: 2026-11-22
 keywords:
   - lonely runner conjecture
   - Lean 4

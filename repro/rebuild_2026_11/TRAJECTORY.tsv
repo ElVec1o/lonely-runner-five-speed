@@ -1,0 +1,16 @@
+time	OK	elapsed_h	lanes	free_GB	note
+2026-11-21 20:43	951	3.13	1	45	one lane
+2026-11-21 21:09	1061	3.57	1	45	one lane
+2026-11-21 21:22	1122	3.8	1->2	46	switch to two lanes (OK count = 1444 minus 322)
+2026-11-21 21:52	1444	4.3	2	45	
+2026-11-21 23:52	2557	6.3	2	41	disk falling 5 GB: setup.json 4.3 GB
+2026-11-21 23:58	2573	6.4	2	45	janitor started (deleted 2,528 setup.json = 4.3 GB)
+2026-11-22 01:31	3011	7.95	2	40.5	slowed to 283/h; GD3O265 FAILED twice (peak 10.9 GB at 12 GB ceiling)
+2026-11-22 01:52	3078	8.25	2	41.5	driver3 (16 GB solo retry); GD3O265 passed try16 140 s peak 13.5 GB, no split
+2026-11-22 06:00	5606	12.4	2	39	no failures since GD3O265; 637/h since 02:12; watcher armed
+2026-11-22 13:21	11172	19.8	2	35	752/h since 06:00; no failures; watcher quiet 7 h
+2026-11-22 14:56	12622	21.4	2	35	954/h since 13:21; no failures; watcher quiet 8.5 h
+2026-11-22 18:08	15130	24.5	2	35	776/h since 14:56; no failures; now in L5Reg family; watcher quiet 12 h
+2026-11-22 19:16	15955	25.7	2	34	690/h since 18:08; no failures; L5Reg family
+2026-11-22 20:05	16404	26.5	2	33	~600/h since 19:16; no failures; last stretch of L5Reg
+2026-11-22 21:13	17598	27.7	2	32	REBUILD COMPLETE 17598/17598 OK, 0 failures, 0 deviations; axiom check launched

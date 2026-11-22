@@ -1,0 +1,26 @@
+LRSpectrumFull.L5S5.five_speed_spectrum_final : ∀ (v : Fin 5 → ℤ),
+  (∀ (i : Fin 5), 0 < v i) →
+    Function.Injective v → LRSpectrumFull.ML v < 1 / 5 → ∃ s, 1 ≤ s ∧ LRSpectrumFull.ML v = ↑s / (5 * ↑s + 1)
+LRSpectrumFull.L5S5.five_speed_spectrum_iff_final : ∀ (x : ℝ),
+  (∃ v, (∀ (i : Fin 5), 0 < v i) ∧ Function.Injective v ∧ LRSpectrumFull.ML v = x ∧ x < 1 / 5) ↔
+    ∃ s, 1 ≤ s ∧ x = ↑s / (5 * ↑s + 1)
+LRSpectrumFull.L5S5.five_speed_attained : ∀ (s : ℕ),
+  1 ≤ s → ∃ v, (∀ (i : Fin 5), 0 < v i) ∧ Function.Injective v ∧ LRSpectrumFull.ML v = ↑s / (5 * ↑s + 1)
+LRSpectrumFull.L5S5.five_speed_spectrum2 : ∀ (hy : LRSpectrumFull.L5S5.FiveSpeedHyps2) (v : Fin 5 → ℤ),
+  (∀ (i : Fin 5), 0 < v i) →
+    Function.Injective v → LRSpectrumFull.ML v < 1 / 5 → ∃ s, 1 ≤ s ∧ LRSpectrumFull.ML v = ↑s / (5 * ↑s + 1)
+LRSpectrumFull.L5S5.hyps2_trivial : Nonempty LRSpectrumFull.L5S5.FiveSpeedHyps2
+def LRSpectrumFull.ML : {k : ℕ} → (Fin (k + 1) → ℤ) → ℝ :=
+fun {k} v => sSup (Set.range (LRSpectrumFull.gap v))
+def LRSpectrumFull.gap : {k : ℕ} → (Fin (k + 1) → ℤ) → ℝ → ℝ :=
+fun {k} v t => Finset.univ.inf' ⋯ fun i => LRSpectrumFull.nearestIntDist (↑(v i) * t)
+def LRSpectrumFull.nearestIntDist : ℝ → ℝ :=
+fun x => min (Int.fract x) (1 - Int.fract x)
+'LRSpectrumFull.L5S5.five_speed_spectrum_final' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRSpectrumFull.L5S5.five_speed_spectrum_iff_final' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRSpectrumFull.L5S5.five_speed_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRSpectrumFull.L5S5.five_speed_spectrum2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LRSpectrumFull.L5S5.hyps2_trivial' does not depend on any axioms
+repro/check_axioms.lean:34:8: warning: declaration uses `sorry`
+'check_axioms_planted_sorry' depends on axioms: [sorryAx]
+'check_axioms_planted_sorry_user' depends on axioms: [propext, sorryAx, Quot.sound]
